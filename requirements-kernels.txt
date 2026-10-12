@@ -1,0 +1,3 @@
+# Install after torch, using --no-build-isolation and a compatible CUDA toolkit.
+flash-attn==2.8.3
+transformer-engine[pytorch]==2.6.0

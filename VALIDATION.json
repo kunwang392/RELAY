@@ -1,0 +1,47 @@
+{
+  "cpu_tests": {
+    "passed": 35,
+    "failed": 0,
+    "datasets_used": false,
+    "judge_calls": 0,
+    "coverage": [
+      "trajectory selection and quality gates",
+      "prediction-mask alignment",
+      "quantile EMA",
+      "plateau strict threshold and patience",
+      "teacher retirement in original pipeline methods",
+      "resume history and deadline",
+      "conditional forward KL and gradients",
+      "full signed training reward through the reward worker",
+      "signed validation scoring",
+      "group-preserving minibatches",
+      "four launch configurations",
+      "local JSONL metrics",
+      "final validation at completed step 400 after weight synchronization",
+      "5120-token validation capacity and configuration rejection",
+      "three fresh final-evaluation rollouts with distinct reproducible seeds",
+      "LLMEval-Med candidate history and turn-weighted scoring",
+      "HealthBench clipping after averaging",
+      "strict GPT-5.1 schema payloads with reasoning effort none",
+      "failure reporting and retry without replacing successful judgments",
+      "five-benchmark aggregation across separate domain checkpoints"
+    ]
+  },
+  "syntax_and_absolute_local_imports": {
+    "python_files": 204,
+    "findings": []
+  },
+  "relative_local_imports": "passed",
+  "shell_launcher_syntax": "passed",
+  "offline_wheel_metadata_and_build": [
+    "relay-rubric-rl",
+    "mcore_adapter"
+  ],
+  "credential_defaults_audit": "No credential-like literal defaults found in retained source.",
+  "dataset_and_model_payloads": 0,
+  "full_gpu_training_run": false,
+  "gpu_dependency_installation_tested": false,
+  "real_gpt_evaluation_run": false,
+  "package_contains_plotting_code": false,
+  "cpu_validation_scope": "CPU and synthetic-request checks only; the pinned GPU environment and live judge service were not exercised."
+}

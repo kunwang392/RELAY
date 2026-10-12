@@ -1,0 +1,13 @@
+.env
+output/
+*.log
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.parquet
+*.arrow
+*.safetensors
+*.pt
+*.pth
